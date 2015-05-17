@@ -1,0 +1,27 @@
+{
+  "name": "snapwire",
+  "version": "1.0.0",
+  "description": "Scrape information from Snapwi.re",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gillstrom/snapwire.git"
+  },
+  "keywords": [
+    "snapwire",
+    "got",
+    "snapwi.re"
+  ],
+  "author": "Andreas Gillström <andreasgillstrom@gmail.com> (http://hynden.se)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gillstrom/snapwire/issues"
+  },
+  "homepage": "https://github.com/gillstrom/snapwire",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "got": "^3.2.0"
+  }
+}
