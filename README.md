@@ -40,7 +40,28 @@ snapwire.user('hynden', function (err, user) {
 	*/
 });
 
+snapwire.userPhotos('hynden', 1, function (err, photos) {
+	if (err) {
+		console.error(err.message);
+	}
+
+	console.log(photos);
+	/*
+	[
+		{
+			id: '5552dce0c643c4ff107d84ce',
+			url: 'https://www.snapwi.re/photo/detail/5552dce0c643c4ff107d84ce',
+			img: 'https://swca.s3-us-west-1.amazonaws.com/1216/5552dce0c643c4ff107d84ce.w314.jpg'
+		}, ...
+	]
+	*/
+});
 ```
+
+### API
+
+#### snapwire.user(username, [callback])
+#### snapwire.userPhotos(username, page, [callback])
 
 
 ## License
